@@ -2,7 +2,10 @@
 
 //Author- Merhawi
 //Citation- Developername-Ashcopenhaur 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');

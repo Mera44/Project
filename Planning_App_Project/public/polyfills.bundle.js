@@ -69,7 +69,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // NgClass on SVG elements
 // Needed for: IE10, IE11
 // import 'classlist.js';
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/polyfills.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/polyfills.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -5989,6 +5993,7 @@ process.umask = function() { return 0; };
 /***/ "../../../../webpack/buildin/global.js":
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 var g;
 
 // This works in non-strict mode
@@ -6010,6 +6015,29 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
+=======
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 
 /***/ }),

@@ -70,7 +70,11 @@ AppComponent = __decorate([
     })
 ], AppComponent);
 
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/app.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/app.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -164,7 +168,11 @@ AppModule = __decorate([
     })
 ], AppModule);
 
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/app.module.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/app.module.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -270,7 +278,11 @@ EditProfileComponent = __decorate([
 ], EditProfileComponent);
 
 var _a, _b, _c, _d;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/edit-profile.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/edit-profile.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -332,7 +344,11 @@ HomeComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], HomeComponent);
 
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/home.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/home.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -430,7 +446,11 @@ LoginComponent = __decorate([
 ], LoginComponent);
 
 var _a, _b, _c;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/login.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/login.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -455,7 +475,11 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = "<nav class=\"navbar navbar-default\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">PLANNING APP</a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav navbar-left\">\n            <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/']\">Home</a></li>\n          </ul>\n\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/tasks']\">Tasks</a></li>\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/login']\">Login</a></li>\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/register']\">Register</a></li>\n            <li *ngIf=\"authService.loggedIn()\"><a (click)=\"onLogoutClick()\" href=\"#\">Logout</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n"
+=======
+module.exports = "<nav class=\"navbar navbar-default\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">PLANNING APP</a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav navbar-left\">\n            <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/']\">Home</a></li>\n          </ul>\n\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/tasks']\">Tasks</a></li>\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/login']\">Login</a></li>\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/register']\">Register</a></li>\n            <li *ngIf=\"authService.loggedIn()\"><a (click)=\"onLogoutClick()\" href=\"#\">Logout</a></li>\n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n"
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -512,7 +536,11 @@ NavbarComponent = __decorate([
 ], NavbarComponent);
 
 var _a, _b, _c;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/navbar.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/navbar.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -591,7 +619,11 @@ ProfileComponent = __decorate([
 ], ProfileComponent);
 
 var _a, _b;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/profile.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/profile.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -674,8 +706,12 @@ var RegisterComponent = (function () {
             return false;
         }
         // Register user
+<<<<<<< HEAD
         this.authService.registerUser(user)
             .subscribe(function (data) {
+=======
+        this.authService.registerUser(user).subscribe(function (data) {
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
             if (data.success) {
                 _this.flashMessage.show('You are now registered and can log in', { cssClass: 'alert-success', timeout: 3000 });
                 _this.router.navigate(['/login']);
@@ -698,7 +734,11 @@ RegisterComponent = __decorate([
 ], RegisterComponent);
 
 var _a, _b, _c, _d;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/register.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/register.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -787,7 +827,11 @@ TasksComponent = __decorate([
 ], TasksComponent);
 
 var _a;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/tasks.component.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/tasks.component.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -834,7 +878,11 @@ AuthGuard = __decorate([
 ], AuthGuard);
 
 var _a, _b;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/auth.guard.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/auth.guard.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -976,7 +1024,11 @@ AuthService = __decorate([
 ], AuthService);
 
 var _a;
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/auth.service.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/auth.service.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -1019,7 +1071,11 @@ ValidateService = __decorate([
     __metadata("design:paramtypes", [])
 ], ValidateService);
 
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/validate.service.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/validate.service.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -1028,10 +1084,22 @@ ValidateService = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+<<<<<<< HEAD
 var environment = {
     production: false
 };
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/environment.js.map
+=======
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/environment.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
@@ -1052,7 +1120,11 @@ if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment *
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["enableProdMode"])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
+<<<<<<< HEAD
 //# sourceMappingURL=E:/MUM/mwa course sept/Finalproject/Project/Planning_App_Project/Front-end-src/src/main.js.map
+=======
+//# sourceMappingURL=/Users/Mera/Desktop/Project/Project/Planning_App_Project/Front-end-src/src/main.js.map
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
 
 /***/ }),
 
