@@ -1,3 +1,5 @@
+//Author: Filmon Citation: Stackoverflow.com
+
 import { Component, OnInit } from '@angular/core';
 import {ValidateService} from '../../services/validate.service'
 import {AuthService} from '../../services/auth.service'
@@ -15,11 +17,8 @@ export class RegisterComponent implements OnInit {
   email: String;
   password: String;
 
-  constructor(
-    private validateService: ValidateService,
-    private flashMessage:FlashMessagesService,
-    private authService:AuthService,
-    private router: Router
+  constructor(private validateService: ValidateService,private flashMessage:FlashMessagesService,
+    private authService:AuthService,private router: Router
   ) { }
 
   ngOnInit() {

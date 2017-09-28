@@ -1,3 +1,7 @@
+
+
+//Author- Merhawi 
+// citation - Stackoverflow (https://stackoverflow.com/questions/41787207/bcryptjs-not-actually-hashing-passwords)
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const config = require('../config/database');

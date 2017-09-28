@@ -1,3 +1,7 @@
+
+
+//Author-Merhawi
+//Citation - Developername-Ashcopenhaur
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');
@@ -6,7 +10,7 @@ const config = require('../config/database');
 const User = require('../models/user');
 const bcrypt = require('bcryptjs');
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://localhost:27017/meanauth');
+var db = mongojs('mongodb://localhost:27017/planapp');
 
 // Register
 router.post('/register', (req, res, next) => {

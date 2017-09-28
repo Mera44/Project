@@ -1,3 +1,6 @@
+
+//Author: Filmon
+
 import { Component, OnInit } from '@angular/core';
 import {ValidateService} from '../../services/validate.service'
 import {AuthService} from '../../services/auth.service'

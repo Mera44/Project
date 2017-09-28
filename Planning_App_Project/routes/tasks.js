@@ -1,9 +1,13 @@
+
+
+//Author- Merhawi
+//Citation- Developername-Ashcopenhaur 
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
 const jwt = require('jsonwebtoken');
 const passport = require('passport');
-var db = mongojs('mongodb://localhost:27017/meanauth');
+var db = mongojs('mongodb://localhost:27017/planapp');
 
 // Get All Tasks  
 router.get('/tasks', passport.authenticate('jwt', {session:false}), (req, res, next) => {

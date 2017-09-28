@@ -1,3 +1,5 @@
+//Author: Filmon
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

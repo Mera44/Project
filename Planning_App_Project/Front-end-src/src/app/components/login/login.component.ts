@@ -1,3 +1,6 @@
+
+//Author: Filmon Citation: Stackoverflow.com
+
 import { Component, OnInit } from '@angular/core';
 import {AuthService} from '../../services/auth.service';
 import {Router} from '@angular/router';
@@ -13,8 +16,7 @@ export class LoginComponent implements OnInit {
   password: String;
 
   constructor(
-    private authService:AuthService,
-    private router:Router,
+    private authService:AuthService,private router:Router,
     private flashMessage:FlashMessagesService
   ) { }
 
@@ -22,7 +24,7 @@ export class LoginComponent implements OnInit {
   }
 
   onLoginSubmit(){
-    //console.log('mera');
+    //console.log('fili');
     const user = {
       username: this.username,
       password: this.password

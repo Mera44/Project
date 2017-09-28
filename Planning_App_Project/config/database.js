@@ -1,4 +1,7 @@
+
+
+// Merhawi 
 module.exports = {
-  database: 'mongodb://localhost:27017/meanauth',    //dev
-  secret: 'yoursecret'
+  database: 'mongodb://localhost:27017/planapp',   
+  secret: 'angularsecret'
 }
