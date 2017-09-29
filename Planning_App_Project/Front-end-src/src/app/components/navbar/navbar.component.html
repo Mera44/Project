@@ -22,6 +22,10 @@
             <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['/register']">Register</a></li>
             <li *ngIf="authService.loggedIn()"><a (click)="onLogoutClick()" href="#">Logout</a></li>
           </ul>
+<<<<<<< HEAD
+        </div>
+=======
         </div><!--/.nav-collapse -->
+>>>>>>> 32c43b7556fb84cfeed710e2f04976a2fa811a1a
       </div>
     </nav>
