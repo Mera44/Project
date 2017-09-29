@@ -1,5 +1,5 @@
 
-//Author: Filmon citation: stackoverflow
+//Author: Filmon 
 
 import {Injectable} from '@angular/core';
 import {Router, CanActivate} from '@angular/router';
